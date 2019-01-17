@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9ebed;
+  font-family: LucidaGrande;
+}
+
+#barra {
+  height: 43px;
+  background-color: #5066ae;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#contingut {
+  margin: 0 auto;
+  width: 852px;
+  height: 2000px;
+
+}
+
+#contingut #cap{
+  height: 358px;
+  background-color: white;
+  background-image: url(../img/cap.jpg);
+  background-repeat: no-repeat;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+
+}
+
+#contingut #cap img {
+  position: relative;
+  top: 170px;
+  left: 21px;
+  border-radius: 50%;
+  border: solid white 4px;
+  box-shadow: 2px 2px 2px #666666;
+}
+
+#contingut #cap h2 {
+  position: relative;
+  top: 70px;
+  left: 230px;
+  color: white;
+  text-shadow: 2px 2px 2px #666666;
+
+}
+
+#contingut #menu {
+  height: 43px;
+  background-color: #e9ebed;
+  width: 532px;
+  float: right;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 78px;
+}
+
+li {
+  float: left;
+  margin: 0 0 0 1px;
+  list-style-type: none;
+  background-color: white;
+  display: block;
+  height: 43px;
+  padding: 0 25px;
+  line-height: 43px;
+}
+
+#principal {
+
+}
+
+#fotos {
+  background-color: red;
+}
+
+.esquerra {
+  height: 200px;
+  width: 322px;
+  background-color: white;
+  border-radius: 3px;
+  border: solid 1px #DDD;
+  margin-top: 12px;
+}
